@@ -87,7 +87,7 @@ class Game:
         else:
             self.money = 50000
             self.stage = 1
-            self.inventory = ["T-Rex"]
+            self.inventory = ["Worm"]
             self.shop_refresh_price = 5
             self.upgrade_pack = 0
             self.legendary_upgrade_pack = 0
@@ -96,9 +96,9 @@ class Game:
             self.pending_buff_choices = []
             
 
-            self.pet_levels["T-Rex"] = 1
-            if "T-Rex" in self.available_prehistoric_pets:
-                self.available_prehistoric_pets.remove("T-Rex")
+            self.pet_levels["Worm"] = 1
+            if "Worm" in self.available_prehistoric_pets:
+                self.available_prehistoric_pets.remove("Worm")
     
             
             self.reroll_shop()
